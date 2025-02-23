@@ -1,0 +1,6 @@
+langchain
+langgraph
+python-nmap
+pytest
+streamlit
+google-generativeai

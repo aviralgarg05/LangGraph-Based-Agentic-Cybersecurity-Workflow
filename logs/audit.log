@@ -1,0 +1,356 @@
+2025-02-23 12:56:19,584 - INFO - Executing task: nmap on target: google.com
+2025-02-23 12:57:01,640 - WARNING - Target  google.com is out of the defined scope.
+2025-02-23 12:57:02,033 - ERROR - No tasks generated. Possibly the target is out of scope.
+2025-02-23 12:57:02,717 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 12:57:02,717 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 12:57:03,025 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,037 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,047 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,056 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,065 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,065 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,065 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 12:57:03,350 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,361 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,370 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,380 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,389 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,389 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:57:03,493 - INFO - Final report saved to reports/final_report.json
+2025-02-23 12:58:44,835 - INFO - Executing task: nmap on target: google.com
+2025-02-23 12:58:48,076 - WARNING - Target  google.com is out of the defined scope.
+2025-02-23 12:58:48,098 - ERROR - No tasks generated. Possibly the target is out of scope.
+2025-02-23 12:59:28,965 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 12:59:29,349 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 12:59:29,389 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,398 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,406 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,413 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,420 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,421 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,421 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 12:59:29,443 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,451 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,459 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,466 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,474 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,474 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 12:59:29,475 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:02:57,268 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:03:41,343 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:03:41,503 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 13:03:41,529 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,538 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,545 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,553 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,561 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,561 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,561 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 13:03:41,584 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,592 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,600 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,608 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,615 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,615 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:03:41,616 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:07:24,548 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:07:38,142 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:08:06,825 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:08:06,957 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 13:08:06,987 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:06,996 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,005 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,015 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,024 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,024 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,024 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 13:08:07,050 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,059 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,068 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,076 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,085 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,086 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:07,086 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:08:20,444 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:08:20,544 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 13:08:20,556 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,565 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,573 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,581 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,589 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,589 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,589 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 13:08:20,598 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,606 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,615 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,624 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,632 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,632 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:08:20,633 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:12:31,981 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:12:42,350 - WARNING - Target https://google.com is out of the defined scope.
+2025-02-23 13:12:42,445 - ERROR - No tasks generated. The target might be out of scope.
+2025-02-23 13:13:14,216 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:13:14,340 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 13:13:14,373 - WARNING - Attempt 1/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,385 - WARNING - Attempt 2/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,395 - WARNING - Attempt 3/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,403 - WARNING - Attempt 4/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,413 - WARNING - Attempt 5/5 failed for command: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,413 - ERROR - Command failed after 5 retries: gobuster dir -u http://google.com -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,413 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 13:13:14,440 - WARNING - Attempt 1/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,450 - WARNING - Attempt 2/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,459 - WARNING - Attempt 3/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,468 - WARNING - Attempt 4/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,476 - WARNING - Attempt 5/5 failed for command: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,476 - ERROR - Command failed after 5 retries: ffuf -u http://google.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
+2025-02-23 13:13:14,476 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:15:26,372 - WARNING - Target https://google.com is out of the defined scope.
+2025-02-23 13:15:26,519 - ERROR - No tasks generated. The target might be out of scope.
+2025-02-23 13:18:51,172 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:19:33,592 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:19:33,960 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:19:33,961 - INFO - Running gobuster with command: gobuster dir -u https://https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:19:34,010 - ERROR - Command failed: Error: error on running gobuster: unable to connect to https://https://google.com/: Get "https://https//google.com/": dial tcp: lookup https: no such host
+
+2025-02-23 13:19:34,010 - INFO - Executing task: ffuf on target: https://google.com
+2025-02-23 13:19:34,010 - INFO - Running ffuf with command: ffuf -u https://https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:19:34,049 - INFO - Command succeeded: ffuf -u https://https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:19:34,049 - INFO - Executing task: sqlmap on target: https://google.com
+2025-02-23 13:19:39,141 - INFO - Command succeeded: sqlmap -u https://google.com --batch
+2025-02-23 13:19:39,141 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:24:44,549 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:25:26,944 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:25:27,309 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:25:27,310 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:25:28,152 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:25:28,153 - INFO - Executing task: ffuf on target: https://google.com
+2025-02-23 13:25:28,153 - INFO - Running ffuf with command: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:25:28,418 - INFO - Command succeeded: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:25:28,418 - INFO - Executing task: sqlmap on target: https://google.com
+2025-02-23 13:25:28,418 - INFO - Running sqlmap with command: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 13:25:31,584 - INFO - Command succeeded: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 13:25:31,585 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:32:40,775 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:33:23,200 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:33:23,563 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:35:27,330 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:36:09,663 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:36:10,050 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:38:49,343 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:39:33,530 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:39:33,892 - INFO - Executing task: gobuster on target: http://google.com
+2025-02-23 13:39:33,892 - INFO - Running gobuster with command: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:39:34,832 - INFO - Command succeeded: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:39:34,833 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:39:34,833 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:39:35,887 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:39:35,890 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:41:35,428 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:42:19,910 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:42:20,298 - INFO - Executing task: gobuster on target: http://google.com
+2025-02-23 13:42:20,299 - INFO - Running gobuster with command: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:42:21,273 - INFO - Command succeeded: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:42:21,273 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:42:21,274 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:42:22,221 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:42:22,222 - INFO - Final report saved to reports/final_report.json
+2025-02-23 13:47:17,606 - INFO - Checking scope for: google.com
+2025-02-23 13:47:17,620 - INFO - Allowed domains: ['google.com', 'example.com']
+2025-02-23 13:47:17,624 - INFO - Executing task: nmap on target: google.com
+2025-02-23 13:48:00,030 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 13:48:00,417 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:48:00,417 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:01,315 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:01,315 - INFO - Executing task: ffuf on target: https://google.com
+2025-02-23 13:48:01,316 - INFO - Running ffuf with command: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:48:01,596 - INFO - Command succeeded: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 13:48:01,596 - INFO - Executing task: sqlmap on target: https://google.com
+2025-02-23 13:48:01,596 - INFO - Running sqlmap with command: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 13:48:03,455 - INFO - Command succeeded: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 13:48:03,456 - INFO - Executing task: gobuster on target: http://google.com
+2025-02-23 13:48:03,456 - INFO - Running gobuster with command: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:04,106 - INFO - Command succeeded: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:04,106 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 13:48:04,107 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:04,932 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 13:48:05,025 - INFO - Final report saved to reports/final_report.json
+2025-02-23 14:19:23,929 - INFO - Checking scope for: google.com
+2025-02-23 14:19:23,931 - INFO - Allowed domains: ['google.com', 'example.com']
+2025-02-23 14:19:23,931 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:20:06,525 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:20:06,891 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 14:20:06,891 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:07,727 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:07,727 - INFO - Executing task: ffuf on target: https://google.com
+2025-02-23 14:20:07,727 - INFO - Running ffuf with command: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:20:08,002 - INFO - Command succeeded: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:20:08,002 - INFO - Executing task: sqlmap on target: https://google.com
+2025-02-23 14:20:08,002 - INFO - Running sqlmap with command: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:20:11,447 - INFO - Command succeeded: sqlmap -u https://google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:20:11,525 - INFO - Executing task: gobuster on target: http://google.com
+2025-02-23 14:20:11,525 - INFO - Running gobuster with command: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:12,218 - INFO - Command succeeded: gobuster dir -u http://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:12,218 - INFO - Executing task: gobuster on target: https://google.com
+2025-02-23 14:20:12,219 - INFO - Running gobuster with command: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:13,069 - INFO - Command succeeded: gobuster dir -u https://google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:20:13,651 - INFO - Final report saved to reports/final_report.json
+2025-02-23 14:31:28,322 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:32:10,659 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:33:46,890 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:34:31,094 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:38:33,674 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:39:16,074 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:41:47,943 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:42:30,463 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:42:30,848 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:42:30,849 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:42:31,544 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:43:04,937 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:43:47,617 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:43:48,014 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:43:48,014 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:43:48,754 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:43:48,755 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 14:43:48,756 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:43:48,912 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:43:48,913 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 14:43:48,913 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:43:50,905 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:46:02,681 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:46:48,551 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:46:48,954 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:46:48,955 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:46:49,701 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:46:49,704 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 14:46:49,704 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:46:49,867 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:46:49,868 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 14:46:49,868 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:46:54,086 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:48:31,238 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:49:13,617 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:49:14,009 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:49:14,009 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:49:14,757 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:49:14,759 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 14:49:14,760 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:49:14,929 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:49:14,930 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 14:49:14,930 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:49:17,022 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:56:08,823 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:56:51,493 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:56:51,880 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:56:51,880 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:56:52,526 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:57:06,555 - INFO - Executing task: nmap on target: google.com
+2025-02-23 14:57:50,598 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 14:57:50,978 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 14:57:50,979 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:57:51,799 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 14:57:51,801 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 14:57:51,803 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:57:51,846 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 14:57:51,847 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 14:57:51,847 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 14:57:53,923 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:13:17,672 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:14:01,185 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:14:01,571 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:14:01,572 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:14:02,225 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:14:02,228 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 15:14:02,229 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 15:14:02,279 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 15:14:02,280 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 15:14:02,280 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:14:04,189 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:20:43,012 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:21:25,371 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:21:25,748 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:21:25,748 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:21:26,570 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:21:26,573 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 15:21:26,574 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 15:21:26,743 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403
+2025-02-23 15:21:26,743 - INFO - FFUF output: 
+2025-02-23 15:21:26,743 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 15:21:26,743 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:21:30,849 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:24:14,810 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:24:58,991 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:24:59,375 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:24:59,376 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:25:00,227 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:25:00,230 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 15:25:00,230 - INFO - Running ffuf with command: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output.json -of json
+2025-02-23 15:25:00,427 - INFO - Command succeeded: ffuf -u google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output.json -of json
+2025-02-23 15:25:00,431 - INFO - FFUF output: 
+2025-02-23 15:25:00,432 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 15:25:00,432 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:25:04,631 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:27:05,359 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:27:49,539 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:27:49,920 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:27:49,920 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:27:50,784 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:27:50,788 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 15:27:50,788 - INFO - Running ffuf with command: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output_20250223_152750.json -of json -recursion -recursion-depth 2
+2025-02-23 15:27:52,492 - INFO - Command succeeded: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output_20250223_152750.json -of json -recursion -recursion-depth 2
+2025-02-23 15:27:52,497 - INFO - FFUF output: Found: https://google.com/robots.txt
+Status: 200
+Length: 8885
+Words: 367
+Lines: 340
+----------------------------------------
+Found: https://google.com/sitemap.xml
+Status: 200
+Length: 2139
+Words: 196
+Lines: 76
+----------------------------------------
+Found: https://google.com/dashboard
+Status: 200
+Length: 878845
+Words: 15904
+Lines: 141
+----------------------------------------
+2025-02-23 15:27:52,498 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 15:27:52,498 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:27:54,725 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:30:38,228 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:31:22,377 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:31:22,762 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:31:22,764 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:31:23,536 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:31:36,137 - INFO - Executing task: nmap on target: google.com
+2025-02-23 15:32:18,375 - INFO - Command succeeded: nmap -Pn google.com
+2025-02-23 15:32:18,749 - INFO - Executing task: gobuster on target: google.com
+2025-02-23 15:32:18,750 - INFO - Running gobuster with command: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:32:19,500 - INFO - Command succeeded: gobuster dir -u google.com -w /Users/aviralgarg/wordlists/common.txt -t 50
+2025-02-23 15:32:19,503 - INFO - Executing task: ffuf on target: google.com
+2025-02-23 15:32:19,504 - INFO - Running ffuf with command: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output_20250223_153219.json -of json -recursion -recursion-depth 2
+2025-02-23 15:32:21,095 - INFO - Command succeeded: ffuf -u https://google.com/FUZZ -w /Users/aviralgarg/wordlists/common.txt -mc 200,301,302,403 -c -v -r -t 40 -timeout 10 -o ffuf_output_20250223_153219.json -of json -recursion -recursion-depth 2
+2025-02-23 15:32:21,100 - INFO - FFUF output: Found: https://google.com/sitemap.xml
+Status: 200
+Length: 2139
+Words: 196
+Lines: 76
+----------------------------------------
+Found: https://google.com/robots.txt
+Status: 200
+Length: 8885
+Words: 367
+Lines: 340
+----------------------------------------
+Found: https://google.com/dashboard
+Status: 200
+Length: 879046
+Words: 15904
+Lines: 141
+----------------------------------------
+2025-02-23 15:32:21,101 - INFO - Executing task: sqlmap on target: google.com
+2025-02-23 15:32:21,101 - INFO - Running sqlmap with command: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
+2025-02-23 15:32:24,848 - INFO - Command succeeded: sqlmap -u google.com --batch --random-agent --level 1 --risk 1 --threads 4 --timeout 30
